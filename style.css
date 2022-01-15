@@ -1,18 +1,15 @@
 html{
     scroll-behavior: smooth;
 }
-font{
-    font-family: 'Poppins', sans-seri
+ font{
+    font-family: 'Poppins', sans-seri;
 }
-.{
-  margin:0%;
-  padding:0;
-  box-sizing: border-box;
-}
-.container{
+
+
+ .container{
    max-width:1000px;
-    margin:auto;
-    padding:2px 5px;
+    margin:20px;
+    padding:auto;
 }
 /*Add overflow to the top navigation bar*/
 .topnav{
@@ -36,9 +33,33 @@ font{
 /*small device(large phone and tablets,576px and up)*/
 @media(min-width:576px)
 
+.flexiable-container{
+    display:flex;
+}
 
+
+ 
+  .half-width{
+    width:200px;
+    height:150px;
+    margin:10px;
+}
+.font{
+    font-size:30px;
+    margin:10px;
+}
+.button1{
+    width:100px;
+    background-color: tomato;
+    color:black;
+    border-radius: 15px solid;
+    margin:4px 10px;
 
 }
+
+
+
+
 
 
 
