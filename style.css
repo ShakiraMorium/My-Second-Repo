@@ -1,0 +1,19 @@
+html{
+    scroll-behavior: smooth;
+}
+font{
+    font-family: 'Poppins', sans-seri
+}
+.{
+  margin:0%;
+  padding:0;
+  box-sizing: border-box;
+}
+.container{
+    width:100px;
+    margin:auto;
+}
+/*small device(large phone and tablets,576px and up)*/
+@media(min-width:576px)
+.colum-small*
+
