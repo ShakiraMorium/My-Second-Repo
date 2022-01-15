@@ -10,10 +10,39 @@ font{
   box-sizing: border-box;
 }
 .container{
-    width:100px;
+   max-width:1000px;
     margin:auto;
+    padding:2px 5px;
+}
+/*Add overflow to the top navigation bar*/
+.topnav{
+    overflow: hidden;
+}
+.topnav a{
+    float:right;
+    color:black;
+    padding:4px 6px;
+    text-decoration: none;
+    font-size:12px;
+} 
+.topnav a:hover{
+           background-color: blanchedalmond;
+           
+}
+.topnav a{
+    background-color: cornsilk;
+    
 }
 /*small device(large phone and tablets,576px and up)*/
 @media(min-width:576px)
-.colum-small*
+
+
+
+}
+
+
+
+
+
+
 
