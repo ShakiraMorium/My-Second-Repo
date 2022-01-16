@@ -1,69 +1,92 @@
 html{
-    scroll-behavior: smooth;
-}
- font{
-    font-family: 'Poppins', sans-seri;
+    font-size: 62.5%;
+    overflow-x: hiden;
+    scroll-padding-top: 5.5rem;
+    scroll-behavior: smooth;}
+    @media screen and (min-width:768px){
+        
+    
+.container{
+   display:grid;
+   grid-template-columns: 2 1fr;
+   gap: 1rem;
 }
 
-
- .container{
-   max-width:1000px;
-    margin:20px;
-    padding:auto;
-}
-/*Add overflow to the top navigation bar*/
-.topnav{
-    overflow: hidden;
-}
-.topnav a{
-    float:right;
-    color:black;
-    padding:4px 6px;
-    text-decoration: none;
-    font-size:12px;
-} 
-.topnav a:hover{
-           background-color: blanchedalmond;
-           
-}
-.topnav a{
-    background-color: cornsilk;
+.photo-gallary{
+    
+    width: 100%;
+    display: block;
     
 }
-/*small device(large phone and tablets,576px and up)*/
-@media(min-width:576px)
+.photo-gallary{
+    width: 2px;;
+    height:2px;
+    padding: 30px;
+    font-size:15px;
+    text-align:left;
+}
+.button{
 
+    display:2px solid rgb(216, 16, 49);
+}
+
+
+.header{
+    position: fixed;
+    top: 0%;left:0%;right:0%;
+    background:#fff;
+    padding: 1rem 7%;
+    display:grid;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    box-shadow: var(--box-shadow);
+}
+
+
+
+
+/* media queries*/
+
+
+ html{
+   font-size: 55%;
+    }
+header{
+    padding: 1rem 2rem;
+}
+@media(max-width:768px){
+    
 .flexiable-container{
-    display:flex;
-}
-
-
- 
-  .half-width{
-    width:200px;
-    height:150px;
-    margin:10px;
-}
-.font{
-    font-size:30px;
-    margin:10px;
-}
-.button1{
-    width:100px;
-    background-color: tomato;
-    color:black;
-    border-radius: 15px solid;
-    margin:4px 10px;
-
+    display:grid;
+    grid-template-row: 3 1fr;
+    gap:1rem;
 }
 
 
 
 
 
-
-
-
-
-
-
+}
+@media(max-width:991px){
+html(max-width: 50%;)
+header{
+    padding:1rem.2rem;
+}
+/*second section */{
+.flexiable-container{
+    height:400px;
+    display : gridgit;
+    border: 2px solid silver;
+    justify-content:space-between;
+    align-items:center;
+}
+.#box {
+    width: 200px;
+    height: 200px;
+    border:2px solid rosybrown;
+    font-size: 3em;
+    justify-content:space-between;
+    align-items:center;
+}
+}
