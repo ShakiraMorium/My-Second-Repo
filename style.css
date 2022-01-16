@@ -75,13 +75,13 @@ header{
 }
 /*second section */{
 .flexiable-container{
-    height:400px;
-    display : gridgit;
+    height:200px;
+    display : grid;
     border: 2px solid silver;
     justify-content:space-between;
     align-items:center;
 }
-.#box {
+.box-item{
     width: 200px;
     height: 200px;
     border:2px solid rosybrown;
@@ -89,4 +89,8 @@ header{
     justify-content:space-between;
     align-items:center;
 }
+
+.footer{
+    background-color:rgb(6, 6, 46);
+    text-align:center;
 }
